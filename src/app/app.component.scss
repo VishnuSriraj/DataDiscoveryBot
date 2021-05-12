@@ -1,3 +1,11 @@
 footer, h2{
-    padding-top: 50px;
+    padding-top: 70px;
 }
+p{
+    font-size: large;
+}
+@media screen and (max-width: 480px) {
+    .toolbar p{
+        display: none;
+    }
+  }
